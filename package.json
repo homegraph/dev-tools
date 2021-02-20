@@ -1,0 +1,19 @@
+{
+  "name": "@homegraph/dev-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:homegraph/dev-tools.git",
+  "author": "Paolo Tremadio <hello@paolotremadio.com>",
+  "workspaces": ["packages/*"],
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "lint": "eslint packages/ --ext .js"
+  },
+  "devDependencies": {
+    "@homegraph/eslint-config-hg-base": "*",
+    "lerna": "^3.22.1"
+  }
+}
