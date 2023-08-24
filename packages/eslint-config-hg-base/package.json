@@ -1,6 +1,6 @@
 {
   "name": "@homegraph/eslint-config-hg-base",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": "https://github.com/homegraph/dev-tools",
   "main": "index.js",
   "dependencies": {
