@@ -10,7 +10,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "lint": "eslint packages/ --ext .js"
+    "lint": "eslint packages/ --ext .js,.ts"
   },
   "devDependencies": {
     "@homegraph/eslint-config-hg-base": "*",
