@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ["@typescript-eslint"],
+  plugins: ['@typescript-eslint'],
   extends: [
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-typescript/base',
@@ -7,7 +7,7 @@ module.exports = {
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-  ].map(require.resolve),
+  ],
   parser: '@typescript-eslint/parser',
   rules: {
     'max-len': 0,
