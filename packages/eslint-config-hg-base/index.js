@@ -17,6 +17,7 @@ module.exports = {
     'import/prefer-default-export': 1,
     '@typescript-eslint/ban-ts-comment': 1,
     '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/consistent-type-definitions': 0,
   },
   parserOptions: {
     project: './tsconfig.json',
